@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        text-align: center;
+        color: rgb(82, 39, 39);
+        padding: 5px 5px;
+        margin-top: 0px;
+    }
+    .navbar{                  
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 5px;
+        background-color: rgb(141, 27, 70);
+    }
+    .nav-list{
+      display: flex; 
+      list-style-type: none;
+}
+   
+    .nav-list li a{
+        text-decoration: none;
+        color: black;
+        margin-right: 185px;
+    }
+    .nav-list li a:hover{
+        color: rgb(16, 119, 119);
+    }
+    .rightNav{
+        text-align: right;
+    }
+    .btn{
+        background-color: aquamarine;
+        border: none;
+        padding: 2px 2px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .column{
+    float:left;
+    padding: 10px;
+ }
+ .left { 
+width: 30%;
+height: 1800px;
+ }
+ .right{
+    width: 70%;
+    height: 1800px;
+   }
+   ul{
+    list-style-type: none;
+    padding: 5px 5px;
+    margin: 5px;
+   }
+   table{
+    width: 100%;
+   }
+   td{
+    padding: 5px 9px;
+    height: 400px;
+   }
+   footer{
+        text-align: center;
+        background-color:  rgb(141, 27, 70);
+        color:grey;
+        margin-bottom: 0;
+    }
+    </style>
+<body>
+    <div class="navbar">
+    <ul class="nav-list">
+        <li>
+            <a href="http://127.0.0.1:5500/Home.html">Home</a>
+            <a href="http://127.0.0.1:5500/Menu.html">Menu</a>
+            <a href="http://127.0.0.1:5500/About.html">About</a>
+            <a href="http://127.0.0.1:5500/Contact.html">Contact</a>
+        </li>
+    </ul>
+    <div class="rightNav">
+        <input type="text" placeholder="SEARCH">
+    <button class="btn">SEARCH</button>
+</div>
+</div>
+   <div class="column left" style="background-color: antiquewhite;">
+    <h1>DIANI<br>HOTEL SPECIAL DELICACIES</h1>
+    <P style="border: solid;">
+        <ul>
+            <li>BREAKFAST
+                <ul>
+                <li>White Tea--------------------100</li>
+                <li>Black Tea---------------------50</li>
+                <li>Milk--------------------------50</li>
+                <li>Andazi------------------------30</li>
+                <li>Chapati-----------------------30</li>
+                <li>Bacon-------------------------70</li>
+                <li>Fruit Juice-------------------70</li>
+                <li>Scrambled Eggs----------------150</li>
+                </ul>
+            </li>
+            <li>Meals
+                <ul>
+                <li>Ugali & Beef------------------250</li>
+                <li>Ugali & Fish------------------450</li>
+                <li>Ugali & Matumbo---------------200</li>
+                <li>Ugali & Mayai-----------------150</li>
+                <li>Ugali & Kuku-------------------400</li>
+                <li>Rice & Beans-------------------70</li>
+                </ul>
+            </li>
+            <li>Desserts
+                <ul>
+            <li>Lemon Cake------------------------100</li>
+            <li>Black Forest Cake-----------------100</li>
+            <li>Fruit Salad-----------------------100</li>
+             </ul>
+            </li>
+        </ul>
+    </P>
+    <p style="background-color: rgb(78, 32, 32);">
+        <h1 style="border-style: solid;">FOREIGN CUISINES</h1>
+        <ul>
+            <li><b>Ethiopian Cuisines</b>
+                <ul>
+                    <li>Injera-Ethiopian Teff Bread</li>
+                    <li>Doro Wat: Ethiopian Chicken Dish</li>
+                    <li>Ethiopian cabbage and Paotato dish</li>
+                    <li>Key Sir Alicha</li>
+                    <li>Gomen Wat</li>
+                    <li>Red Lentil with Veges</li>
+                    <li>Tiki Gomen-Ethiopian cabbage</li>
+                </ul>
+            </li>
+        </ul>
+       <ul>
+        <li><b>Nigerian Cuisines</b>
+        <ul>
+            <li>Jolf Rice</li>
+            <li>Suya</li>
+            <li>Moin Moin</li>
+            <li>Plantain</li>
+            <li>Egusi Soup</li>
+            <li>Ogbono Soup</li>
+            <li>Pepper Soup</li>
+            <li>Afang Soup</li>
+            <li>Eforiro</li>
+            <li>Nkwobi Soup</li>
+        </ul>
+        </li>
+       </ul>
+       </p>
+       <p>
+   </div>
+   <div class="column right" style="background-color: rgb(235, 131, 131);">
+    <table>
+        <tr>
+            <td><img src="Images\Breakfast.jpg" width="50%"></td>
+        </tr>
+    <tr>
+        <td><img src="Images/Meals.jpg" width="50%"></td>
+    </tr>
+    <tr>
+        <td><img src="Images/Black forest cake.jpg" width="50%"></td>
+    </tr>
+    </table>
+   </div><br>
+   <footer>
+    <p>Diani_Hotel</p>
+</footer>
+</body>
+</html>
